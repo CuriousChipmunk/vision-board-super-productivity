@@ -21,13 +21,13 @@ A customizable two-page goals dashboard for Super Productivity.
 
 ### Goals board
 
-![Goals Vision Board dashboard](screenshot-3x3.png)
+![Goals Vision Board dashboard](screenshots/screenshot-3x3.png)
 
-![Goals Vision Board dashboard](screenshot-3x4.png)
+![Goals Vision Board dashboard](screenshots/screenshot-3x4.png)
 
 ### Edit mode
 
-![Goals Vision Board edit mode](screenshot-3x4edit.png)
+![Goals Vision Board edit mode](screenshots/screenshot-3x4edit.png)
 
 
 ## Installation
