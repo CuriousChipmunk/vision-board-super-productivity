@@ -1,0 +1,64 @@
+/* Goals Vision Board host bridge v1 */
+(function () {
+  const PREFIX = '[Goals Vision Board]';
+
+  function api() {
+    if (typeof PluginAPI === 'undefined' || !PluginAPI) {
+      throw new Error('PluginAPI is not available in plugin.js');
+    }
+    return PluginAPI;
+  }
+
+  function openDashboard() {
+    const p = api();
+    if (typeof p.showIndexHtmlAsView === 'function') {
+      p.showIndexHtmlAsView();
+    } else if (typeof p.showInWorkContext === 'function') {
+      p.showInWorkContext();
+    } else {
+      throw new Error('No supported view-opening API is available.');
+    }
+  }
+
+  function registerUi() {
+    const p = api();
+
+    if (typeof p.registerMenuEntry === 'function') {
+      p.registerMenuEntry({
+        label: 'Goals Vision Board',
+        icon: 'track_changes',
+        onClick: openDashboard
+      });
+    }
+
+    if (typeof p.registerHeaderButton === 'function') {
+      p.registerHeaderButton({
+        label: 'Goals',
+        icon: 'track_changes',
+        onClick: openDashboard
+      });
+    }
+  }
+
+  function boot() {
+    try {
+      registerUi();
+    } catch (err) {
+      console.warn(PREFIX, 'Plugin boot failed', err);
+      try {
+        api().showSnack({
+          msg: 'Goals Vision Board could not start. Open DevTools for details.',
+          type: 'ERROR'
+        });
+      } catch (_) {}
+    }
+  }
+
+  try {
+    const p = api();
+    if (typeof p.onReady === 'function') p.onReady(boot);
+    else boot();
+  } catch (err) {
+    console.warn(PREFIX, 'PluginAPI missing during initial evaluation', err);
+  }
+})();
