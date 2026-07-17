@@ -17,6 +17,20 @@ A customizable two-page goals dashboard for Super Productivity.
 - Independent Page 1 and Page 2 layouts
 - Local and synchronized plugin persistence
 
+## Screenshots
+
+### Goals board
+
+![Goals Vision Board](screenshots/Screenshot%202026-07-16%20235853.png)
+
+### Editing goals
+
+![Goals Vision Board edit mode](screenshots/Screenshot%202026-07-16%20235926.png)
+
+### Layout and controls
+
+![Goals Vision Board controls](screenshots/Screenshot%202026-07-17%20000109.png)
+
 ## Installation
 
 1. Open the repository’s Releases page.
