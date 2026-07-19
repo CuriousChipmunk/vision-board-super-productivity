@@ -21,13 +21,13 @@ A customizable two-page goals dashboard for Super Productivity.
 
 ### Goals board
 
-![Goals Vision Board dashboard](screenshots/Screenshot-3x3.png)
+<img width="2169" height="1504" alt="Screenshot 2026-07-17 094724" src="https://github.com/user-attachments/assets/c6a0984a-ed80-4e2d-a950-0e60cdb4fd36" />
 
-![Goals Vision Board dashboard](screenshots/Screenshot-3x4.png)
+<img width="2169" height="1504" alt="Screenshot 2026-07-17 095131" src="https://github.com/user-attachments/assets/28102c2a-b91b-4fe1-94af-a5844dbc4320" />
 
 ### Edit mode
 
-![Goals Vision Board edit mode](screenshots/Screenshot-3x4edit.png)
+<img width="2169" height="1504" alt="Screenshot 2026-07-17 095201" src="https://github.com/user-attachments/assets/811e1102-de72-4262-bb2a-ecc4df99deeb" />
 
 
 ## Installation
