@@ -34,12 +34,12 @@ A customizable two-page goals dashboard for Super Productivity.
 
 1. Open the repository’s **Releases** page.
 2. Open the latest release.
-3. Under **Assets**, download **`goals-vision-board.zip`**.
+3. Under **Assets**, download **only the zip file**.
 4. Do not download **Source code (zip)** or **Source code (tar.gz)**.
 5. Open Super Productivity.
 6. Go to **Settings → Plugins**.
 7. Select **Upload plugin**.
-8. Choose `goals-vision-board.zip`.
+8. Choose the file you downloaded with the correct version code. It should look something like: **goals-vision-board** followed by a version code.
 9. Enable the plugin.
 10. Open **Goals** from the Super Productivity header.
 
