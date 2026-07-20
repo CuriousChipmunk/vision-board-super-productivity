@@ -7,15 +7,26 @@ A customizable two-page goals dashboard for Super Productivity.
 ## Features
 
 - Up to 15 persistent goals per page
-- Multiple row × column arrangements
+- Multiple row × column arrangements (3x3, 3x4, 4x3, 5x3)
 - Drag-and-drop box ordering
-- Rich-text descriptions
+- Rich-text descriptions (bold, italics, underline)
 - Bullets and interactive checklists
+- Removable card titles
+- 2 column texts
+- Image upload (1 per card; max 3 per page)
 - Horizontal dividers
 - Custom reusable tags
 - Optional lower information boxes
 - Independent Page 1 and Page 2 layouts
 - Local and synchronized plugin persistence
+
+Recommended image sizes (with titles removed)
+Measured at the plugin’s maximum desktop width:
+Grid arrangement	Card columns	Available image frame	  Aspect ratio	Recommended upload
+3 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
+3 × 4	                 4	               320 × 279 px	     1.15:1	      1200 × 1050 px
+4 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
+5 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
 
 ## Screenshots
 
