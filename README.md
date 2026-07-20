@@ -11,6 +11,7 @@ A customizable two-page goals dashboard for Super Productivity.
 - Drag-and-drop box ordering
 - Independent Page 1 and Page 2 layouts
 - Rich-text descriptions (bold, italics, underline)
+- Font type and font size selection
 - Bullets and interactive checklists
 - Removable card titles
 - 2 column texts
