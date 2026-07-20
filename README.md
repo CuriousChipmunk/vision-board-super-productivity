@@ -20,13 +20,15 @@ A customizable two-page goals dashboard for Super Productivity.
 - Independent Page 1 and Page 2 layouts
 - Local and synchronized plugin persistence
 
-Recommended image sizes (with titles removed)
-Measured at the plugin’s maximum desktop width:
-Grid arrangement	Card columns	Available image frame	  Aspect ratio	Recommended upload
-3 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
-3 × 4	                 4	               320 × 279 px	     1.15:1	      1200 × 1050 px
-4 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
-5 × 3	                 3	               442 × 279 px	     1.58:1	      1200 × 760 px
+Recommended image sizes (with card titles removed)
+
+3 row × 3 column -- 1200 × 760 px
+
+3 row × 4	column -- 1200 × 1050 px
+
+4 row × 3	column -- 1200 × 760 px
+
+5 row × 3	column -- 1200 × 760 px
 
 ## Screenshots
 
