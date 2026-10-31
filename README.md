@@ -37,7 +37,7 @@ Any existing data (content, tags) may or may not work with new versions. Take a 
 
 - Local data storage
 
-- Photo card: 2 cards can be selected to show photos and each can store up to 4 photos. Cards with 1 photo do not rotate. The plugin may slow down on open, save, and sync at 8 photos. Rotation cycle is 1 week
+- Photo card: 2 cards per page can be selected to show photos and each can store up to 4 photos. Cards with 1 photo do not rotate. The plugin may slow down on open, save, and sync at 8 photos. Rotation cycle is 1 week
 
 - Quote card: 3 cards can be selected to show quotes and each can store up to 6 quotes. Each card can show 1 long quote or 2 short quotes. Cards with 1 long quote or 2 short quotes do not rotate. (Note: aside from quotes, they can also be for personal reminders you tell yourself or anything else text-based.). Rotation cycle is 1 week
 
